@@ -1,0 +1,30 @@
+#container{
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.list li{
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: flex-end;
+}
+.btnDiv > button{
+    padding: 10px;
+}
